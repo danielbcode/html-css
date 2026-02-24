@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatções</title>
+    <style>
+        body {
+            background-color: rgb(49, 53, 53);
+        }
+        p {
+            color: rgb(190, 190, 192);
+            font-size: 115%;
+        }
+        h1 {
+            color: rgb(202, 132, 81);
+        }
+        h2 {
+            color: rgb(65, 135, 192);
+        }
+        code {
+            color: aliceblue;
+        }
+        blockquote {
+            color: aliceblue;
+        }
+        abbr {
+            color: aliceblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Outras formatações</h1>
+    <hr style="color: aliceblue;">
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número: '))
+    if num % 2 == 0:
+        print (f'O número {num} é PAR.')
+    else:
+        print (f'O número {num} é ÍMPAR')
+    print ('FIM DO PROGRAMA')
+        </code>
+    </pre>
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai de um amigo meu: <q>O computador é um burro muito rápido.</q></p>
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <hr style="color: aliceblue;">
+</body>
+</html>
